@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Cleane Evelin <cleaneevelin04@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -21,8 +25,5 @@
     "ts-jest": "^29.1.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
